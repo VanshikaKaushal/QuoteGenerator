@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+  
+  #quote-box {
+    margin: 1.5rem 0;
+  }
+  
+  #quote {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
+  #author {
+    margin-top: 0.5rem;
+    color: #555;
+  }
+  
+  button {
+    background: #0077cc;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #005fa3;
+  }
+  
